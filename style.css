@@ -11,11 +11,15 @@ body {
 }
 
 .bio {
+    padding-bottom: 40px;
+}
+
+#members-header {
     padding-bottom: 20px;
 }
 
 #members {
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .grid-container {
@@ -31,5 +35,5 @@ body {
 }
 
 #portfolio {
-    padding-bottom: 40px;
+    padding-bottom: 100px;
 }
