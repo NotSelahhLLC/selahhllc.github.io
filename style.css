@@ -4,28 +4,34 @@ body {
     background-color: #F5F5F5;
 }
 
+#title {
+    padding-bottom: 20px;
+}
+
 .avatar-image {
     border-radius: 50%;
     width: 125x;
     height: 125px;
 }
 
-.bio {
-    padding-bottom: 40px;
-}
-
-#members-header {
-    padding-bottom: 20px;
-}
-
 #members {
-    padding-top: 40px;
+    grid-template-columns: [first] auto [line2] 250px [line3] 20px [col2-start] 250px [five] auto [end];
+}
+
+.bio {
+   
+}
+
+#paul-bio {
+    grid-column: 2 / 3;
+}
+
+#chandler-bio {
+    grid-column: col2-start / 4;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: 1;
 }
 
 .app-icon {
@@ -36,4 +42,6 @@ body {
 
 #portfolio {
     padding-bottom: 100px;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
 }
