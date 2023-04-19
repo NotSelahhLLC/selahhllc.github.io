@@ -10,14 +10,10 @@ body {
 }
 
 .bio {
-
+    padding-bottom: 20px;
 }
 
 #members {
-    padding-top: 20px;
-}
-
-#mission {
     padding-top: 20px;
 }
 
