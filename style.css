@@ -3,11 +3,23 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-img {
+.avatar-image {
     border-radius: 50%;
     width: 150px;
     height: 150px;
     object-fit: contain;
+}
+
+.bio {
+
+}
+
+#members {
+    padding-top: 20px;
+}
+
+#mission {
+    padding-top: 20px;
 }
 
 footer {
