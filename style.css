@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
 }
 
 h1 {
@@ -13,6 +13,7 @@ footer {
 }
 
 section {
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -24,6 +25,10 @@ section {
 
 #members {
     grid-template-columns: [first] auto [line2] 250px [line3] 20px [col2-start] 250px [five] auto [end];
+}
+
+#bio h2 {
+    padding-bottom: 20px;
 }
 
 .bio {
