@@ -2,6 +2,9 @@
 <rect x="357" width="265" height="265" rx="40" fill="#6A15F7"/>
 <g clip-path="url(#clip0_30_4533)">
 <rect width="265" height="624" rx="40" fill="#6A15F7"/>
+<line y1="153.5" x2="265" y2="153.5" stroke="white" stroke-width="5"/>
+<line y1="309.5" x2="265" y2="309.5" stroke="white" stroke-width="5"/>
+<line y1="465.5" x2="265" y2="465.5" stroke="white" stroke-width="5"/>
 </g>
 <g opacity="0.3">
 <circle cx="489.5" cy="491.5" r="132.5" fill="#6A15F7"/>
