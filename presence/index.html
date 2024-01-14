@@ -6,12 +6,15 @@
     <meta name="color-scheme" content="dark light">
     <link rel="stylesheet" href="output.css">
     <style>
+      .app-icon {
+        border-radius: 40px;
+      }
       body {
         font-family: -apple-system, BlinkMacSystemFont, sans-serif;
       }
     </style>
   </head>
-  <body class="dark:bg-neutral-950">
+  <body class="bg-slate-100 dark:bg-neutral-950">
     <div class="max-w-3xl mx-auto">
       <!-- Hero -->
       <div class="mx-auto text-center py-24">
@@ -21,17 +24,15 @@
         <div class="font-normal pt-8">
           <h class="text-2xl text-slate-600 dark:text-presence-purple-400">Bring down his presence</h>
         </div>
-        <div class="mx-auto flex">
-          <div class="mx-auto flex-col py-24 w-40">
-            <picture>
-              <source srcset="images/app-icon-dark-1024.svg" media="(prefers-color-scheme: dark)">
-              <img src="images/app-icon-1024.svg">
-            </picture>
-          </div>
+        <div class="py-24">
+          <picture>
+            <source srcset="images/app-icon-dark-1024.svg" media="(prefers-color-scheme: dark)">
+            <img class="mx-auto aspect-[1/1] w-52 border-gray-200 border-2 dark:border-0 app-icon" src="images/app-icon-1024.svg">
+          </picture>
         </div>
       </div>
       <!-- Features -->
-      <div class="mx-auto mx-auto py-24">
+      <div class="mx-auto py-24">
         <ul role="list">
           <!-- Performance View-->
           <li class="text-right">
@@ -131,7 +132,7 @@
         </div>
         <div class="grid grid-cols-2 gap-4 mx-auto mt-10">
           <!-- Basic -->
-          <div class="rounded-lg p-8 text-right border-solid border-slate-300 dark:border-presence-purple-700 border-2 bg-slate-100 dark:bg-presence-purple-900">
+          <div class="rounded-lg p-8 text-right border-solid border-slate-300 dark:border-presence-purple-700 border-2 bg-slate-50 dark:bg-presence-purple-900">
             <div class="">
               <h3 class="text-2xl font-bold text-slate-800 dark:text-presence-purple-100">Basic</h3>
               <div class="flex items-baseline justify-end">
@@ -154,7 +155,7 @@
             </div>
           </div>
           <!-- Premium -->
-          <div class="rounded-lg p-8 border-solid border-slate-300 dark:border-presence-purple-700 border-2 text-right bg-slate-100 dark:bg-presence-purple-900">
+          <div class="rounded-lg p-8 border-solid border-slate-300 dark:border-presence-purple-700 border-2 text-right bg-slate-50 dark:bg-presence-purple-900">
             <h3 class="text-2xl font-bold text-slate-800 dark:text-presence-purple-100">Premium</h3>
             <div class="flex items-baseline justify-end">
               <p class="text-lg font-semibold text-lg dark:text-presence-purple-200 pt-4">$30 annually</p>
